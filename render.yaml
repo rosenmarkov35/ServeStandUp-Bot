@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: standup-bot
+    env: python
+    repo: https://github.com/rosenmarkov35/ServeStandUp-Bot
+    branch: main
+    buildCommand: ""
+    startCommand: python bot.py
+    autoDeploy: true
+    envVars:
+      - key: DISCORD_TOKEN
+        sync: false
+      - key: OTHER_ENV_VAR
+        sync: false
