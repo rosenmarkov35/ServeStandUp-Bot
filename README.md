@@ -82,7 +82,7 @@ To self-host and run StandUP Bot, you’ll first need to create a bot on the [Di
 
 Use the **OAuth2 URL Generator** with the following:
 
-* **Scopes**: `bot`
+Select the **bot** scope/checkbox and scroll down to toggle the following permissions
 * **Bot Permissions**:
 
   * Manage Roles

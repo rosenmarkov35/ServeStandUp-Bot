@@ -10,5 +10,3 @@ services:
     envVars:
       - key: DISCORD_TOKEN
         sync: false
-      - key: OTHER_ENV_VAR
-        sync: false
