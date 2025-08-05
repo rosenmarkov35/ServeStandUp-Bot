@@ -1,5 +1,5 @@
 services:
-  - type: worker
+  - type: web
     name: standup-bot
     env: python
     repo: https://github.com/rosenmarkov35/ServeStandUp-Bot
