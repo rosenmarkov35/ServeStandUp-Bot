@@ -173,6 +173,14 @@ docker ps
 docker logs -f standup-bot
 ```
 
+Seeing these messages means the bot successfully connected to Discord and is running as expected.
+
+```bash
+INFO:__main__:Starting bot...
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: <hidden>)
+```
+
 **Stop the bot:**
 
 ```bash
