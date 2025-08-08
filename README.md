@@ -72,10 +72,6 @@ To self-host and run StandUP Bot, you’ll first need to create a bot on the [Di
 * Enable **`Server Members Intent`** and **`Message Content Intent`**.
 * Click **"Reset Token"** and store it somewhere safe.
 
-  ```env
-  DISCORD_TOKEN=your_token_here
-  ```
-
 > ⚠️ Never share your bot token publicly!
 
 ### 3. Set Bot Permissions (OAuth2)
